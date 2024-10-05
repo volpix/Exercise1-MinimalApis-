@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MinimalApis</name>
+    </assembly>
+    <members>
+        <member name="T:MinimalApis.Model.OperationSettings">
+            <summary>
+            Configuration to add the values ​​from appsettings
+            </summary>
+        </member>
+        <member name="T:MinimalApis.Services.Interface.IOperationsService">
+            <summary>
+            Operations service interface.
+            </summary>
+        </member>
+        <member name="T:MinimalApis.Services.OperationsService">
+            <summary>
+            Provides basic arithmetic operations.
+            </summary>
+        </member>
+        <member name="M:MinimalApis.Services.OperationsService.Addition(System.Double,System.Double)">
+            <summary>
+            Adds two numbers.
+            </summary>
+            <param name="a">First number.</param>
+            <param name="b">Second number.</param>
+            <returns>The sum of the two numbers.</returns>
+        </member>
+        <member name="M:MinimalApis.Services.OperationsService.Division(System.Double,System.Double)">
+            <summary>
+            Divides one number by another.
+            </summary>
+            <param name="a">Dividend.</param>
+            <param name="b">Divisor.</param>
+            <returns>The quotient of the division.</returns>
+            <exception cref="T:System.DivideByZeroException">Thrown when divisor is zero.</exception>
+        </member>
+        <member name="M:MinimalApis.Services.OperationsService.Subtraction(System.Double,System.Double)">
+            <summary>
+            Subtracts one number from another.
+            </summary>
+            <param name="a">First number.</param>
+            <param name="b">Second number.</param>
+            <returns>The result of the subtraction.</returns>
+        </member>
+        <member name="M:MinimalApis.Services.OperationsService.Multiplication(System.Double,System.Double)">
+            <summary>
+            Multiplies two numbers.
+            </summary>
+            <param name="a">First number.</param>
+            <param name="b">Second number.</param>
+            <returns>The product of the two numbers.</returns>
+        </member>
+    </members>
+</doc>
